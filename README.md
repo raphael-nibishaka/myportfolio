@@ -1,73 +1,68 @@
-# Welcome to your Lovable project
+# Raphael NIBISHAKA | Fullstack & Cybersecurity Engineer
 
-## Project info
+Welcome to my portfolio! I am a passionate developer and security enthusiast dedicated to building high-performance web applications and ensuring digital safety. This project showcases my journey, my technical skills, and the impact of my work.
 
-**URL**: https://lovable.dev/projects/a28037f5-1ccf-46a0-a683-723a695d32f8
+## 🚀 About Me
 
-## How can I edit this code?
+I specialize in creating robust digital solutions that bridge the gap between seamless user experience and ironclad security. With a background in Fullstack Engineering and a deep-seated interest in Cybersecurity, I build applications that are not just functional, but also resilient.
 
-There are several ways of editing your application.
+- 🌐 **Fullstack Development**: Expertise in modern web technologies.
+- 🛡️ **Cybersecurity**: Focused on secure coding practices and threat mitigation.
+- 💡 **Innovation**: Always exploring new technologies to solve real-world problems.
 
-**Use Lovable**
+## 🛠️ Technical Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a28037f5-1ccf-46a0-a683-723a695d32f8) and start prompting.
+This portfolio is built using a modern, scalable stack:
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **UI Components**: [Shadcn UI](https://ui.shadcn.com/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Animation**: [Framer Motion](https://www.framer.com/motion/) & Tailwind Animations
 
-**Use your preferred IDE**
+## 📁 Project Highlights
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+My projects range from complex fullstack platforms to specialized security tools:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- **E-Commerce Platform**: A complete end-to-end shopping experience.
+- **Security Audit Tool**: Automated vulnerability scanning for web apps.
+- **Real-Time Chat**: Secure, encrypted communication platform.
+- **Network Monitor**: Real-time traffic analysis and threat detection.
 
-Follow these steps:
+## ⚙️ Local Development
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+To get this project running on your machine, follow these steps:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/raphael-nibishaka/myportfolio.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd myportfolio
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📬 Contact
 
-**Edit a file directly in GitHub**
+I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Email**: raphaelnibishaka@gmail.com
+- **Website**: [rnibishaka.com](https://rnibishaka.com) (Coming Soon)
+- **LinkedIn**: [linkedin.com/in/raphael-nibishaka](https://linkedin.com/in/raphael-nibishaka)
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/a28037f5-1ccf-46a0-a683-723a695d32f8) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
+Developed with 💻 and ☕ by Raphael NIBISHAKA.

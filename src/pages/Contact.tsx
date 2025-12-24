@@ -24,7 +24,7 @@ const Contact = () => {
 
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "https://github.com/raphyrenu", color: "hover:text-primary" },
-    { icon: FaWhatsapp, label: "WhatsApp", href: "", color: "hover:text-primary" },
+    { icon: FaWhatsapp, label: "WhatsApp", href: "whatsapp://send?phone=+250792672810", color: "hover:text-primary" },
     { icon: FaInstagram, label: "Instagram", href: "https://www.instagram.com/r.a.p.h.a.e", color: "hover:text-primary" },
     { icon: Mail, label: "Email", href: "mailto:raphaelnibishaka@gmail.com", color: "hover:text-primary" },
   ];
