@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here.
+All colors MUST be HSL.
+*/
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 10s linear infinite;
+}
+
+@layer base {
+  :root {
+    --background: 245 100% 5%;
+    --foreground: 0 0% 98%;
+
+    --card: 245 60% 8%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 245 60% 8%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 270 100% 70%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 245 50% 12%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 245 40% 15%;
+    --muted-foreground: 240 10% 65%;
+
+    --accent: 280 80% 60%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 245 30% 18%;
+    --input: 245 30% 18%;
+    --ring: 270 100% 70%;
+
+    --radius: 0.75rem;
+
+    /* Custom gradient colors */
+    --gradient-purple: 280 100% 70%;
+    --gradient-blue: 220 100% 65%;
+    --gradient-pink: 330 100% 70%;
+
+    /* Hero specific */
+    --hero-glow: 270 100% 70%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-gradient-to-r from-[hsl(var(--gradient-purple))] via-[hsl(var(--gradient-blue))] to-[hsl(var(--gradient-pink))] bg-clip-text text-transparent;
+  }
+
+  .gradient-border {
+    position: relative;
+    background: hsl(var(--card));
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, hsl(var(--gradient-purple)), hsl(var(--gradient-blue)), hsl(var(--gradient-pink)));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .glow-effect {
+    box-shadow: 0 0 40px -10px hsl(var(--hero-glow) / 0.5);
+  }
+}
